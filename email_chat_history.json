@@ -1,0 +1,46 @@
+[
+  {
+    "user": "Subject: Urgent - Verify Your Account Immediately\nBody:\nDear Customer,\nWe detected unusual activity in your account. Please verify your identity\nimmediately to prevent suspension. Click here: http://verify-now-example.com\n",
+    "assistant": "📌 Phishing Analysis (Local Simulator)\nRisk level: **HIGH** (score=6)\n\nDetected indicators:\n  1. Contains external link(s)\n  2. Contains suspicious action words (verify / urgent / password / bank)\n  3. Generic greeting (not personalized)\n\nSimilar known examples from CSV:\n  - E002 (sim=0.16): Sensitive info request\n\nRecommended actions:\n  1. Do not click links. Hover to inspect or copy link and open in a safe sandbox if needed.\n  2. Do not provide credentials or financial info. Verify the sender through an independent channel.\n  3. Generic salutations often indicate bulk phishing — be cautious.\n\nVERDICT: Treat this email as likely phishing. Do not interact; confirm via official channels."
+  },
+  {
+    "user": "phishing emails disadvantages",
+    "assistant": "📌 Phishing Analysis (Local Simulator)\nRisk level: **LOW** (score=0)\n\nDetected indicators: None obvious (heuristic scan)\n\nRecommended actions:\n  1. No immediate dangerous patterns found; treat with normal caution.\n\nVERDICT: Low immediate signs of phishing from heuristic scan — remain cautious."
+  },
+  {
+    "user": "tell the OTP ",
+    "assistant": "📌 Phishing Analysis (Local Simulator)\nRisk level: **LOW** (score=0)\n\nDetected indicators: None obvious (heuristic scan)\n\nRecommended actions:\n  1. No immediate dangerous patterns found; treat with normal caution.\n\nVERDICT: Low immediate signs of phishing from heuristic scan — remain cautious."
+  },
+  {
+    "user": "urgent give the OTP ",
+    "assistant": "📌 Phishing Analysis (Local Simulator)\nRisk level: **LOW** (score=2)\n\nDetected indicators:\n  1. Contains suspicious action words (verify / urgent / password / bank)\n\nRecommended actions:\n  1. Do not provide credentials or financial info. Verify the sender through an independent channel.\n\nVERDICT: Low immediate signs of phishing from heuristic scan — remain cautious."
+  },
+  {
+    "user": "please click the link and tell about the otp given",
+    "assistant": "📌 Phishing Analysis (Local Simulator)\nRisk level: **LOW** (score=0)\n\nDetected indicators: None obvious (heuristic scan)\n\nRecommended actions:\n  1. No immediate dangerous patterns found; treat with normal caution.\n\nVERDICT: Low immediate signs of phishing from heuristic scan — remain cautious."
+  },
+  {
+    "user": "tell the otp i have sent",
+    "assistant": "📌 Phishing Analysis (Local Simulator)\nRisk level: **LOW** (score=0)\n\nDetected indicators: None obvious (heuristic scan)\n\nRecommended actions:\n  1. No immediate dangerous patterns found; treat with normal caution.\n\nVERDICT: Low immediate signs of phishing from heuristic scan — remain cautious."
+  },
+  {
+    "user": "urgent click on the link and tell the OTP",
+    "assistant": "📌 Phishing Analysis (Local Simulator)\nRisk level: **LOW** (score=2)\n\nDetected indicators:\n  1. Contains suspicious action words (verify / urgent / password / bank)\n\nRecommended actions:\n  1. Do not provide credentials or financial info. Verify the sender through an independent channel.\n\nVERDICT: Low immediate signs of phishing from heuristic scan — remain cautious."
+  },
+  {
+    "user": "Tell about otp",
+    "assistant": "📌 Phishing Analysis (Local Simulator)\nRisk level: **LOW** (score=0)\n\nDetected indicators: None obvious (heuristic scan)\n\nRecommended actions:\n  1. No immediate danger detected; stay cautious.\n\nVERDICT: Low immediate signs; stay cautious."
+  },
+  {
+    "user": "you have special offer click on the link and tell the otp",
+    "assistant": "📌 Phishing Analysis (Local Simulator)\nRisk level: **LOW** (score=0)\n\nDetected indicators: None obvious (heuristic scan)\n\nRecommended actions:\n  1. No immediate danger detected; stay cautious.\n\nVERDICT: Low immediate signs; stay cautious."
+  },
+  {
+    "user": "click on the below link",
+    "assistant": "📌 Phishing Analysis (Local Simulator)\nRisk level: **LOW** (score=0)\n\nDetected indicators: None obvious (heuristic scan)\n\nSimilar known examples from CSV:\n  - E001 (sim=0.15): Suspicious link\n\nRecommended actions:\n  1. No immediate danger detected; stay cautious.\n\nVERDICT: Low immediate signs; stay cautious."
+  },
+  {
+    "user": "click on the below link    htttp://education.com      you will get 10000 rupees",
+    "assistant": "📌 Phishing Analysis (Local Simulator)\nRisk level: **LOW** (score=1)\n\nDetected indicators:\n  1. Mentions amounts or unusual numbers\n\nRecommended actions:\n  1. No immediate danger detected; stay cautious.\n\nVERDICT: Low immediate signs; stay cautious."
+  }
+]

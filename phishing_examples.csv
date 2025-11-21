@@ -1,0 +1,4 @@
+id,subject,body,indicator
+E001,Your account has been suspended,Click this link to restore your account,Suspicious link
+E002,Urgent: Verify your payment info,Provide your bank details to avoid account closure,Sensitive info request
+E003,Congratulations! You won a gift card,Claim your prize by clicking here,Unsolicited reward
